@@ -11,7 +11,7 @@ A box that uses truffle and nile to compile and deploy contracts.
 ## Installation
 
 ```bash
-$ truffle unbox
+$ truffle unbox 0xKahi/cairo-box
 ```
 
 ## Setup
