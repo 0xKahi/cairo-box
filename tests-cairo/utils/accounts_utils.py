@@ -1,6 +1,6 @@
 """ used to manage accounts and does easier signing"""
 import os
-from utils.openzepplin.nile_signer import NileSigner
+from utils.nile_signer import NileSigner
 from starkware.crypto.signature.signature import pedersen_hash
 # locate the path of account contract
 ACCOUNT_FILE = os.path.join("contracts", "Account.cairo")
